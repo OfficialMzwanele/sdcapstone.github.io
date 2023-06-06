@@ -1,0 +1,131 @@
+html{
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    box-sizing: inherit;
+    padding-bottom: 70px;
+}
+
+.titlebox{
+    margin: 00px 0px 0px 0px;
+}
+
+.title{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Righteous', cursive;
+    color: rgb(244, 250, 195);
+    padding: 10px;
+}
+.navibox{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.301);
+    margin: 20px 0px 20px 0px;
+    position: sticky;
+    top: 0;
+    
+}
+.navi{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+}
+.navibutton{
+    margin: 5px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    background: none;
+    border: inset 2px;
+    border-color: rgb(244, 250, 195);
+    border-radius: 20px;
+}
+.btn-text{
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(244, 250, 195);
+}
+
+.content{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.introbox{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: aliceblue;
+    border-radius: 10px;
+    border: inset 2px;
+    overflow-wrap: break-word;
+}
+
+.intro{
+    color: rgb(244, 250, 195);
+    text-align: center;
+}
+
+footer{
+    background-color: rgba(39, 39, 39, 0.9);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.footer-text{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: rgb(134, 134, 134);
+    font-size: 10px;
+    font-weight: bold;
+    width: 100%;
+    
+}
+
+.next-page{
+    position: absolute;
+    right: 0;
+    bottom: 60px;
+    width: 100px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 15px;
+    height: 30px;
+    background: none;
+    color: rgb(244, 250, 195);
+    border-color: rgb(244, 250, 195);
+}
+
+/*scroll-bar*/
+/* ::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: aliceblue;
+    border-radius: 5px;
+} */
